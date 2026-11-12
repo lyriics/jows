@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jow's Qualidade Industrial: serviços de qualidade industrial com foco em gestão, serviço e administração.">
+  <meta name="theme-color" content="#111111">
+  <link rel="icon" href="jows.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Jow's | Qualidade Industrial</title>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header">
+    <a class="logo-link" href="#topo" aria-label="Jow's - início">
+      <img class="logo" src="jows.png" alt="Logo Jow's">
+    </a>
+
+    <nav class="nav" aria-label="Menu principal">
+      <a class="btn" href="#sobre">Sobre</a>
+      <a class="btn" href="#onde-nos-encontrar">Onde nos encontrar</a>
+      <a class="btn btn-primary" href="#trabalhe-conosco">Trabalhe Conosco</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="hero" id="topo">
+      <img src="exemple.png" alt="Banner horizontal Jow's">
+      <div class="hero-overlay">
+        <h1 class="hero-title">Jow's <span>Qualidade Industrial</span></h1>
+        <p class="hero-subtitle">Gestão, serviço e administração com padrão de qualidade.</p>
+        <a class="btn btn-primary" href="#trabalhe-conosco">Faça parte da equipe</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="card">
+      <h2>Conheça o projeto Jow's</h2>
+      <p>O nome da nossa empresa foi baseado nos nomes dos três sócios responsáveis: João, Otávio e William. A ideia surgiu depois de todos terem prestado serviço em uma empresa de qualidade, onde vimos muitos pontos a melhorar em gestão, serviço e administração. Por isso, decidimos tomar a iniciativa de criar a Jow's Qualidade Industrial.</p>
+
+      <ul class="socios" aria-label="Sócios da Jow's">
+        <li><span class="socio-inicial" aria-hidden="true">J</span> João</li>
+        <li><span class="socio-inicial" aria-hidden="true">O</span> Otávio</li>
+        <li><span class="socio-inicial" aria-hidden="true">W</span> William</li>
+      </ul>
+    </section>
+
+    <section id="trabalhe-conosco" class="card">
+      <h2>Trabalhe Conosco</h2>
+      <p>Envie seu currículo para fazer parte da equipe Jow's.</p>
+      <a class="btn btn-primary" href="mailto:jows@gmail.com?subject=Currículo%20-%20Trabalhe%20Conosco">Enviar currículo</a>
+    </section>
+
+    <section id="onde-nos-encontrar" class="card">
+      <h2>Onde nos encontrar</h2>
+      <p>Entre em contato para conhecer nossa unidade e serviços.</p>
+
+      <a class="btn" href="mailto:jows@gmail.com">jows@gmail.com</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="ano">2026</span> Jow's Qualidade Industrial. Todos os direitos reservados.</p>
+    <p><a href="mailto:jows@gmail.com">jows@gmail.com</a></p>
+  </footer>
+
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
